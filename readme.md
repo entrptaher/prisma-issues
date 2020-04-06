@@ -9,29 +9,25 @@ yarn prisma generate
 ```
 
 # Benchmark
-The benchmark is done using [hyperfine](https://github.com/sharkdp/hyperfine).
-
-# Issues
-
-## Zombie process
-```
-node scripts/zombie.js
-```
-
-## Other issues
-- Restart engine on panic: https://github.com/prisma/prisma/issues/2100
-- Fails inside node cluster: https://github.com/prisma/prisma-client-js/issues/632
+All of the the benchmark on this repo is done using [hyperfine](https://github.com/sharkdp/hyperfine).
 
 # Versions
 
 ```
-➜  node -v
-v11.15.0
-
-➜  npm -v
-6.7.0
-
-➜  prisma --version
-@prisma/cli          : 2.0.0-beta.1
-Current platform     : debian-openssl-1.1.x
+Database: sqlite
+Node Version: v11.15.0
+Npm Version: 6.7.0
+Prisma: 2.0.0-beta.1
+Platform : debian-openssl-1.1.x
+Hyperfine: hyperfine 1.9.0
 ```
+
+# Issues
+
+## Zombie process: 
+- Issue link: https://github.com/prisma/prisma-client-js/issues/635
+- Script Path: scripts/zombie.js
+
+## Fails inside node cluster
+- Issue link: https://github.com/prisma/prisma-client-js/issues/632
+- Script Path: 
