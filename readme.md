@@ -26,8 +26,8 @@ Hyperfine: hyperfine 1.9.0
 
 ## Zombie process: 
 - Issue link: https://github.com/prisma/prisma-client-js/issues/635
-- Script Path: scripts/zombie.js
+- Script Path: [scripts/zombie.js](/scripts/zombie.js#L17)
 
 ## Fails inside node cluster
 - Issue link: https://github.com/prisma/prisma-client-js/issues/632
-- Script Path: 
+- Script Path: [scripts/cluster.js](/scripts/cluster.js)
