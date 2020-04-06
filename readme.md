@@ -1,4 +1,4 @@
-# Getting started
+## Getting started
 Clone the repo and start hacking.
 
 ```sh
@@ -8,10 +8,10 @@ yarn prisma migrate up --experimental
 yarn prisma generate
 ```
 
-# Benchmark
+## Benchmark
 All of the the benchmark on this repo is done using [hyperfine](https://github.com/sharkdp/hyperfine).
 
-# Versions
+## Versions
 
 ```
 Database: sqlite
