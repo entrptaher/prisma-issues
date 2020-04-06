@@ -30,4 +30,4 @@ Hyperfine: hyperfine 1.9.0
 
 ## Fails inside node cluster
 - Issue link: https://github.com/prisma/prisma-client-js/issues/632
-- Script Path: [scripts/cluster.js](/scripts/cluster.js)
+- Script Path: [scripts/cluster](/scripts/cluster.js)
